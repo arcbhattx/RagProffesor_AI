@@ -1,0 +1,124 @@
+{
+    "reviews": [
+      {
+        "professor": "Dr. Emily Hawthorne",
+        "subject": "English Literature",
+        "stars": 4,
+        "review": "Dr. Hawthorne's passion for literature is contagious. Her lectures are engaging and thought-provoking. However, the workload can be heavy at times."
+      },
+      {
+        "professor": "Prof. Michael Chen",
+        "subject": "Computer Science",
+        "stars": 5,
+        "review": "Brilliant instructor! Prof. Chen explains complex concepts clearly and is always willing to help during office hours. His projects are challenging but rewarding."
+      },
+      {
+        "professor": "Dr. Sarah Johnson",
+        "subject": "Biology",
+        "stars": 3,
+        "review": "Dr. Johnson knows her subject well, but her lectures can be dry. The lab sessions are informative, though sometimes disorganized."
+      },
+      {
+        "professor": "Prof. Robert Garcia",
+        "subject": "History",
+        "stars": 5,
+        "review": "Prof. Garcia brings history to life! His storytelling approach makes even the most obscure historical events fascinating. Assignments are fair and well-designed."
+      },
+      {
+        "professor": "Dr. Lisa Patel",
+        "subject": "Physics",
+        "stars": 2,
+        "review": "Dr. Patel seems knowledgeable, but struggles to explain concepts at an undergraduate level. Exams are much harder than the material covered in class."
+      },
+      {
+        "professor": "Prof. David Kim",
+        "subject": "Psychology",
+        "stars": 4,
+        "review": "Prof. Kim's classes are always interesting. He incorporates real-world examples and encourages class discussions. Sometimes goes off-topic, but overall a great teacher."
+      },
+      {
+        "professor": "Dr. Rachel Thompson",
+        "subject": "Chemistry",
+        "stars": 5,
+        "review": "Dr. Thompson is an exceptional educator. Her explanations are clear, and she makes complex chemical concepts accessible. Always available for extra help."
+      },
+      {
+        "professor": "Prof. James Wilson",
+        "subject": "Economics",
+        "stars": 3,
+        "review": "Prof. Wilson is knowledgeable but can be intimidating. His classes are challenging and the curve is harsh. However, you'll learn a lot if you can keep up."
+      },
+      {
+        "professor": "Dr. Maria Rodriguez",
+        "subject": "Sociology",
+        "stars": 4,
+        "review": "Dr. Rodriguez brings fresh perspectives to sociological theories. Her assignments encourage critical thinking. Sometimes lectures run over time."
+      },
+      {
+        "professor": "Prof. Thomas Lee",
+        "subject": "Mathematics",
+        "stars": 2,
+        "review": "Prof. Lee is clearly brilliant, but has difficulty explaining concepts to students who aren't math prodigies. Office hours are not very helpful."
+      },
+      {
+        "professor": "Dr. Elizabeth Brown",
+        "subject": "Art History",
+        "stars": 5,
+        "review": "Dr. Brown's lectures are like guided tours through art museums. Her enthusiasm is infectious, and she makes even the most obscure artworks interesting."
+      },
+      {
+        "professor": "Prof. Alexander Ivanov",
+        "subject": "Political Science",
+        "stars": 4,
+        "review": "Prof. Ivanov presents balanced views on complex political issues. Assignments can be demanding, but they significantly improve analytical skills."
+      },
+      {
+        "professor": "Dr. Jennifer Murphy",
+        "subject": "Environmental Science",
+        "stars": 3,
+        "review": "Dr. Murphy is passionate about the subject, but her teaching style can be inconsistent. Field trips are the highlight of the course."
+      },
+      {
+        "professor": "Prof. Hassan Ahmed",
+        "subject": "Engineering",
+        "stars": 5,
+        "review": "Prof. Ahmed's practical approach to engineering problems is invaluable. He brings industry experience into the classroom and prepares students well for their careers."
+      },
+      {
+        "professor": "Dr. Samantha Lee",
+        "subject": "Neuroscience",
+        "stars": 4,
+        "review": "Dr. Lee's lectures are fascinating and well-structured. The course is challenging but rewarding. More hands-on lab work would be appreciated."
+      },
+      {
+        "professor": "Prof. Daniel Martin",
+        "subject": "Philosophy",
+        "stars": 3,
+        "review": "Prof. Martin encourages deep thinking, but can be vague in his explanations. Grading criteria are sometimes unclear. Interesting class discussions though."
+      },
+      {
+        "professor": "Dr. Laura Simmons",
+        "subject": "Linguistics",
+        "stars": 5,
+        "review": "Dr. Simmons makes linguistics accessible and fun. Her interactive teaching style and real-world examples help concepts stick. Highly recommended!"
+      },
+      {
+        "professor": "Prof. Richard Taylor",
+        "subject": "Business Administration",
+        "stars": 2,
+        "review": "Prof. Taylor seems more interested in his research than teaching. Lectures are often cancelled or poorly prepared. The course relies heavily on the textbook."
+      },
+      {
+        "professor": "Dr. Olivia Chang",
+        "subject": "Anthropology",
+        "stars": 4,
+        "review": "Dr. Chang brings anthropology to life with her fieldwork stories. Assignments are creative and thought-provoking. Heavy reading load, but worth it."
+      },
+      {
+        "professor": "Prof. Gregory Nelson",
+        "subject": "Music Theory",
+        "stars": 3,
+        "review": "Prof. Nelson is clearly an accomplished musician, but his teaching can be hit or miss. Some concepts are explained well, others are rushed through."
+      }
+    ]
+  }

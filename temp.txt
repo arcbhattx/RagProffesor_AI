@@ -1,0 +1,57 @@
+from flask import Flask, request, jsonify
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service
+import os
+
+app = Flask(__name__)
+
+from flask_cors import CORS
+
+CORS(app)
+# Path to your ChromeDriver
+
+
+
+@app.route('/scrape', methods=['POST'])
+def scrape_rate_my_professor():
+    print("Received request")
+
+    data = request.json
+    link = data.get('link')
+
+    if not link:
+        return jsonify({'error': 'No link provided'}), 400
+
+    try:
+        chrome_options = Options()
+        chrome_options.add_argument("--headless")  # Ensure GUI is off
+
+        service = Service(executable_path='chromedriver.exe')
+        driver = webdriver.Chrome(service=service, options=chrome_options)
+
+        driver.get(link)
+
+        # Example scraping logic; adjust as needed
+        professor_name = driver.find_element(By.CSS_SELECTOR, 'selector-for-professor-name').text
+        review = driver.find_element(By.CSS_SELECTOR, 'selector-for-review').text
+        stars = driver.find_element(By.CSS_SELECTOR, 'selector-for-stars').text
+        subject = driver.find_element(By.CSS_SELECTOR, 'selector-for-subject').text
+
+        driver.quit()
+
+        return jsonify({
+            'professor': professor_name,
+            'review': review,
+            'stars': stars,
+            'subject': subject
+        })
+
+    except Exception as e:
+        print(f'Error: {str(e)}')  # Log the error
+        return jsonify({'error': f'Error scraping data: {str(e)}'}), 500
+
+if __name__ == '__main__':
+    app.run(port=5000)
