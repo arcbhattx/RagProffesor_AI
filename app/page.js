@@ -222,14 +222,10 @@ export default function Home() {
             sx={{ mt: 2 }}
           />
 
-          {/* Conditionally render loading indicator or submit button */}
-          {loading ? (
-            <CircularProgress sx={{ mt: 2 }} />  
-          ) : (
+         
             <Button variant="contained" onClick={handleAddLink} sx={{ mt: 2 }}>
               Submit
             </Button>
-          )}
         </Box>
       </Modal>
     </Box>
